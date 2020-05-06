@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey1"
+    android:padding="16dp">
+    <TextView
+        android:fontFamily="@font/googlesans_bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update current location"
+        android:textColor="#ffffff"
+        android:paddingBottom="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editText_current_location"
+        android:fontFamily="@font/googlesans_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_theme"
+        android:gravity="top"
+        android:hint="Current Location"
+        android:ems="20"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="@dimen/text_18"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_update_reset_location"
+        android:fontFamily="@font/googlesans_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/milk_white"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_20"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="15dp"
+        android:layout_margin="1dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:elevation="5dp"
+        android:text="Update location"
+        android:textAllCaps="false"
+        android:gravity="center"
+        app:rippleColor="@color/colorPrimary"
+        android:layout_marginTop="18.3dp"
+        tools:ignore="MissingPrefix" />
+
+</LinearLayout>

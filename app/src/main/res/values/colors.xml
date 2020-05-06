@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fdbc2d</color>
+    <color name="colorPrimaryDark">#c58c00</color>
+    <color name="colorAccent">#ffee63</color>
+
+    <color name="grey1">#344955</color>
+    <color name="dark1">#232F34</color>
+
+    <color name="milk_white">#fffbf2</color>
+    <color name="dark_grey">#232F34</color>
+    <color name="transparent_bg">#2affffff</color>
+
+    <color name="semiTransparentColor">#34FFFFFF</color>
+
+    <color name="mainTextColor">#130E51</color>
+    <color name="chipItemBackgroundColor">#1AADA7FE</color>
+    <color name="chipTextColor">#5D50FE</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="whiteWithOpacity">#C3FFFFFF</color>
+    <color name="whiteWithHalfOpacity">#80FFFFFF</color>
+
+    <color name="color_red">#F76353</color>
+    <color name="color_green">#00CC99</color>
+    <color name="color_yellow">#F2B900</color>
+
+    <color name="color_yellow2">#fdbc2d</color>
+
+    <color name="davy_grey">#1B232F</color>
+    <color name="cool_grey">#90949c</color>
+
+    <color name="list_color1">#C62828</color>
+    <color name="list_color2">#AD1457</color>
+    <color name="list_color3">#283593</color>
+    <color name="list_color4">#1565C0</color>
+    <color name="list_color5">#0277BD</color>
+    <color name="list_color6">#00838F</color>
+    <color name="list_color7">#00695C</color>
+    <color name="list_color8">#2E7D32</color>
+    <color name="list_color9">#558B2F</color>
+    <color name="list_color10">#9E9D24</color>
+    <color name="list_color11">#F9A825</color>
+    <color name="list_color12">#FF8F00</color>
+    <color name="list_color13">#EF6C00</color>
+    <color name="list_color14">#D84315</color>
+</resources>

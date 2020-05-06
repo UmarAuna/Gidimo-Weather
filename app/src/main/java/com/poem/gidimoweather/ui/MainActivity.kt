@@ -44,8 +44,16 @@ class MainActivity : AppCompatActivity() {
         dayViewModel?.init()
 
         setupRecyclerView()
-        getDaily()
-        getDay()
+
+        if (Is_Network().isOnline(this)) {
+            binding.swiperefreshMain.isRefreshing = true
+            getDaily()
+            getDay()
+            binding.listError.visibility = View.GONE
+        } else {
+            binding.listError.visibility = View.VISIBLE
+            binding.swiperefreshMain.isRefreshing = false
+        }
 
 
         binding.swiperefreshMain.setColorScheme(android.R.color.holo_blue_bright,

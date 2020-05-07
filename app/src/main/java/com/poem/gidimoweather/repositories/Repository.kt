@@ -24,7 +24,7 @@ class Repository {
         apiService = APIClient.newsClient?.create(APIService::class.java)
     }
 
-    fun getNews(apiKey: String?, q: String?, units: String?, cnt: Int): MutableLiveData<DailyForecast?>? {
+    fun getDaily(apiKey: String?, q: String?, units: String?, cnt: Int): MutableLiveData<DailyForecast?>? {
         val weatherData: MutableLiveData<DailyForecast?> = MutableLiveData<DailyForecast?>()
         apiService?.getDailyForecast(apiKey, q, units, cnt)?.enqueue(object : Callback<DailyForecast?> {
             override fun onResponse(call: Call<DailyForecast?>, response: Response<DailyForecast?>) {

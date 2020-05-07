@@ -24,7 +24,7 @@ class DailyForecastViewModel(application: Application) : AndroidViewModel(applic
             if (BuildConfig.API_KEY.isEmpty()) {
                 Log.d("API_KEY_ERROR", "Key is empty")
             }
-        mutableLiveData = repository.getNews(BuildConfig.API_KEY,sharedPreference.getValueString("location")!!, "metric",5)
+        mutableLiveData = repository.getDaily(BuildConfig.API_KEY,sharedPreference.getValueString("location")!!, "metric",5)
         }catch (e: Exception){
             e.printStackTrace();
         }
